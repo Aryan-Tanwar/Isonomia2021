@@ -8,7 +8,14 @@ def main():
 
     if teams_choice == "Team 1":
         
-        st.write("Tesla, one of the fastest growing and largest Companies of the modern world is known for the volatility of its CEO, Elon Musk. News has surfaced that Elon Musk crashed a Tesla car under the influence of multiple hallucinogens. The Media has covered the story multiple times. Shareholders are outraged. Large numbers of people have chosen to boycott Tesla and Elon Musk's other enterprises. As the spokesperson of Tesla, the world now looks to you for your statement on the future of Tesla. Good Luck.")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "T1":
+            st.subheader("Your Topic")
+            st.write("Tesla, one of the fastest growing and largest Companies of the modern world is known for the volatility of its CEO, Elon Musk. News has surfaced that Elon Musk crashed a Tesla car under the influence of multiple hallucinogens. The Media has covered the story multiple times. Shareholders are outraged. Large numbers of people have chosen to boycott Tesla and Elon Musk's other enterprises. As the spokesperson of Tesla, the world now looks to you for your statement on the future of Tesla. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+        
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
         if password == "123":
@@ -32,10 +39,16 @@ def main():
 
     elif teams_choice == "Team 2":
         
-        st.write("Apple, the multi-trillion dollar company is know for its quality and integrity. Tim Cook, the CEO of apple, one of the highest paid company executives was found to have a dark side. Police reports state that the billionaire has murdered over 20 people in the past decade. Tim Cook and his attorney have made no statement yet. With company stock plummeting and apple products getting boycotted, the world looks to the Spokesperson of Apple, you. Your statement can make or break one of the greatest legacies of our time. Good Luck.")
+         st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "T2":
+            st.subheader("Your Topic")
+            st.write("Apple, the multi-trillion dollar company is know for its quality and integrity. Tim Cook, the CEO of apple, one of the highest paid company executives was found to have a dark side. Police reports state that the billionaire has murdered over 20 people in the past decade. Tim Cook and his attorney have made no statement yet. With company stock plummeting and apple products getting boycotted, the world looks to the Spokesperson of Apple, you. Your statement can make or break one of the greatest legacies of our time. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+        
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
-
         if password == "456":
             st.subheader("Your Topic")
             st.write("**For this round, you will be Barack Obama applying for a job in United Healthcare.**")
@@ -58,10 +71,16 @@ def main():
 
     elif teams_choice == "Team 3":
        
-        st.write("Microsoft, one of the wealthiest corporations in the world has been known for quality and integrity for decades. However, recently, reports have started emerging of Microsoft CEO, Satya Nadella, violating the privacy of multiple microsoft users, calling into question the security and reliability of the entire company. Users are switching to other operating systems. Shareholders are outraged. Share value is plummeting. Users are switching to other brand. Multiple lawsuits have been filed. It is now your duty as the Head of PR at Microsoft to sway public opinion and save the company. Good Luck.")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "T3":
+            st.subheader("Your Topic")
+            st.write("Microsoft, one of the wealthiest corporations in the world has been known for quality and integrity for decades. However, recently, reports have started emerging of Microsoft CEO, Satya Nadella, violating the privacy of multiple microsoft users, calling into question the security and reliability of the entire company. Users are switching to other operating systems. Shareholders are outraged. Share value is plummeting. Users are switching to other brand. Multiple lawsuits have been filed. It is now your duty as the Head of PR at Microsoft to sway public opinion and save the company. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+        
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
-
         if password == "789":
             st.subheader("Your Topic")
             st.write("**For this round you will be Narendra Modi applying for a job at Paytm**")
@@ -83,10 +102,16 @@ def main():
 
     elif teams_choice == "Team 4":
        
-        st.write("There have long been suspicions that Mark Zuckerberg, CEO of Facebook, one the largest social media networks and also the parent company to some of the other largest networks, is not human. Recently, these fabrications turned out to be true. Zuckerberg, after being in a car crash, was taken to an emergency room and rumors of his supposed alien physiology have reached an all time high. Massive, news channels and media networks have covered this story and users of Facebook, WhatsApp and Instagram are rapidly deleting accounts from fear of having their information leaked to an extraterrestrial intelligence. It is your job as the spokesperson of Facebook to pacify their concerns and save Facebook. Good Luck.")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "T4":
+            st.subheader("Your Topic")
+            st.write("There have long been suspicions that Mark Zuckerberg, CEO of Facebook, one the largest social media networks and also the parent company to some of the other largest networks, is not human. Recently, these fabrications turned out to be true. Zuckerberg, after being in a car crash, was taken to an emergency room and rumors of his supposed alien physiology have reached an all time high. Massive, news channels and media networks have covered this story and users of Facebook, WhatsApp and Instagram are rapidly deleting accounts from fear of having their information leaked to an extraterrestrial intelligence. It is your job as the spokesperson of Facebook to pacify their concerns and save Facebook. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+        
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
-
         if password == "91011":
             st.subheader("Your Topic")
             st.write("**For this round, you will be Vladimir Putin seeking a job in Google**")
@@ -108,10 +133,16 @@ def main():
 
     elif teams_choice == "Team 5":
        
-        st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "T5":
+            st.subheader("Your Topic")
+            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+            
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
-
         if password == "121314":
             st.subheader("Your Topic")
             st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
