@@ -3,14 +3,15 @@ import streamlit as st
 def main():
 
     st.title("ISONOMIA")
-    teams = ["Team 1","Team 2","Team 3","Team 4","Team 5"]
+    teams = ["Team A","Team B","Team C","Team D","Team E" ,"Team F","Team I","Team J","Team K","Team L","Team M"]
     teams_choice = st.sidebar.selectbox("Teams",teams)
 
-    if teams_choice == "Team 1":
+    if teams_choice == "Team A":
 
+        st.header("Team A")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
-        if teamp == "T1":
+        if teamp == "23759":
             st.subheader("Your Topic")
             st.write("Tesla, one of the fastest growing and largest Companies of the modern world is known for the volatility of its CEO, Elon Musk. News has surfaced that Elon Musk crashed a Tesla car under the influence of multiple hallucinogens. The Media has covered the story multiple times. Shareholders are outraged. Large numbers of people have chosen to boycott Tesla and Elon Musk's other enterprises. As the spokesperson of Tesla, the world now looks to you for your statement on the future of Tesla. Good Luck.")
         else:
@@ -18,7 +19,7 @@ def main():
 
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
-        if password == "123":
+        if password == "39475":
             st.subheader("Your Topic")
             st.write("**For this round, you will be Angela Merkel applying for a position in BMW.**")
         else:
@@ -26,7 +27,7 @@ def main():
 
         st.subheader("Round 3")
         password2 = st.text_input("Type for round 3 Password")
-        if password2 == "321":
+        if password2 == "34975":
             st.header("Your Question")
             st.write("**David**")
             st.write("You are a crazy scientist who has no interest in mundane matters such as murder.You are honest and direct. You want to clear yourself of suspicions you want to return to continue your research and study the results of your painstaking experiment.You met Charles who seems like a capable student and showed him the lab and what work you were doing. You heard Andrew scream but didn't go because your work is far more important than solving the crime")
@@ -37,11 +38,12 @@ def main():
             st.write("try again incorrect password")
 
 
-    elif teams_choice == "Team 2":
+    elif teams_choice == "Team B":
 
+        st.header("Team B")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
-        if teamp == "T2":
+        if teamp == "20838":
             st.subheader("Your Topic")
             st.write("Apple, the multi-trillion dollar company is know for its quality and integrity. Tim Cook, the CEO of apple, one of the highest paid company executives was found to have a dark side. Police reports state that the billionaire has murdered over 20 people in the past decade. Tim Cook and his attorney have made no statement yet. With company stock plummeting and apple products getting boycotted, the world looks to the Spokesperson of Apple, you. Your statement can make or break one of the greatest legacies of our time. Good Luck.")
         else:
@@ -49,7 +51,7 @@ def main():
 
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
-        if password == "456":
+        if password == "39937":
             st.subheader("Your Topic")
             st.write("**For this round, you will be Barack Obama applying for a job in United Healthcare.**")
         else:
@@ -57,7 +59,7 @@ def main():
 
         st.subheader("Round 3")
         password2 = st.text_input("Type for round 3 Password")
-        if password2 == "654":
+        if password2 == "38749":
             st.header("Your Question")
             st.write("**Eric**")
             st.write("You have a family at home waiting for you.You finished work and wanted to leave. You are polite and trusting. You hope that the murderer is found so that you can return to your family. You don't suspect anyone.")
@@ -69,11 +71,12 @@ def main():
             st.write("try again incorrect password")
 
 
-    elif teams_choice == "Team 3":
+    elif teams_choice == "Team C":
 
+        st.header("Team C")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
-        if teamp == "T3":
+        if teamp == "73737":
             st.subheader("Your Topic")
             st.write("Microsoft, one of the wealthiest corporations in the world has been known for quality and integrity for decades. However, recently, reports have started emerging of Microsoft CEO, Satya Nadella, violating the privacy of multiple microsoft users, calling into question the security and reliability of the entire company. Users are switching to other operating systems. Shareholders are outraged. Share value is plummeting. Users are switching to other brand. Multiple lawsuits have been filed. It is now your duty as the Head of PR at Microsoft to sway public opinion and save the company. Good Luck.")
         else:
@@ -81,7 +84,7 @@ def main():
 
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
-        if password == "789":
+        if password == "95858":
             st.subheader("Your Topic")
             st.write("**For this round you will be Narendra Modi applying for a job at Paytm**")
         else:
@@ -89,7 +92,7 @@ def main():
 
         st.subheader("Round 3")
         password2 = st.text_input("Type for round 3 Password")
-        if password2 == "987":
+        if password2 == "37737":
             st.header("Your Question")
             st.write("**Brian**")
             st.write("You are a heroic character and care about justice. You weren't very close with Frank but care about right and wrong. You will do whatever it takes to get to the bottom of this mystery. ")
@@ -100,11 +103,12 @@ def main():
             st.write("try again incorrect password")
 
 
-    elif teams_choice == "Team 4":
+    elif teams_choice == "Team D":
 
+        st.header("Team D")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
-        if teamp == "T4":
+        if teamp == "30949":
             st.subheader("Your Topic")
             st.write("There have long been suspicions that Mark Zuckerberg, CEO of Facebook, one the largest social media networks and also the parent company to some of the other largest networks, is not human. Recently, these fabrications turned out to be true. Zuckerberg, after being in a car crash, was taken to an emergency room and rumors of his supposed alien physiology have reached an all time high. Massive, news channels and media networks have covered this story and users of Facebook, WhatsApp and Instagram are rapidly deleting accounts from fear of having their information leaked to an extraterrestrial intelligence. It is your job as the spokesperson of Facebook to pacify their concerns and save Facebook. Good Luck.")
         else:
@@ -112,7 +116,7 @@ def main():
 
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
-        if password == "91011":
+        if password == "93930":
             st.subheader("Your Topic")
             st.write("**For this round, you will be Vladimir Putin seeking a job in Google**")
         else:
@@ -120,7 +124,7 @@ def main():
 
         st.subheader("Round 3")
         password2 = st.text_input("Type for round 3 Password")
-        if password2 == "11109":
+        if password2 == "76464":
             st.header("Your Question")
             st.write("**Charles**")
             st.write("You are the murderer. Try to be calm and convince them that it's not you. You were Frank's college bully and now he had a high level job in a big company. You were unable to find a job anywhere else and you had a family to feed. You were worried he was going to tank your interview so you went to the lab and stole a scalpel and some bleach when David wasn't looking. You stabbed Frank, went to the lobby and cleaned the scalpel with bleach and hid the scalpel under the sofa. You saw Eric and decided to pin the blame on him and then went to the kitchen after seeing the blood on your tie that no one noticed. You washed it off and went to the break room for it to dry")
@@ -131,20 +135,20 @@ def main():
             st.write("try again incorrect password")
 
 
-    elif teams_choice == "Team 5":
+    elif teams_choice == "Team E":
 
+        st.header("Team E")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
-        if teamp == "T5":
+        if teamp == "92929":
             st.subheader("Your Topic")
             st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
         else:
             st.write("try again incorrect password")
 
-
         st.subheader("Round 2")
         password = st.text_input("Type for round 2 Password")
-        if password == "121314":
+        if password == "75799":
             st.subheader("Your Topic")
             st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
         else:
@@ -152,7 +156,7 @@ def main():
 
         st.subheader("Round 3")
         password2 = st.text_input("Type for round 3 Password")
-        if password2 == "141312":
+        if password2 == "38469":
             st.header("Your Question")
             st.write("**Andrew**")
             st.write("You just saw the dead body of your best friend Frank. You are in a state of shock and will do anything to find out who did this and get justice for Frank.")
@@ -163,11 +167,169 @@ def main():
             st.write("try again incorrect password")
 
 
+    elif teams_choice == "Team F":
+
+        st.header("Team F")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "39393":
+            st.subheader("Your Topic")
+            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 2")
+        password = st.text_input("Type for round 2 Password")
+        if password == "29923":
+            st.subheader("Your Topic")
+            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 3")
+        password2 = st.text_input("Type for round 3 Password")
+        if password2 == "37773":
+            st.header("Your Question")
+        else:
+            st.write("try again incorrect password")
+
+
+    elif teams_choice == "Team I":
+
+        st.header("Team I")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "39479":
+            st.subheader("Your Topic")
+            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 2")
+        password = st.text_input("Type for round 2 Password")
+        if password == "28123":
+            st.subheader("Your Topic")
+            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 3")
+        password2 = st.text_input("Type for round 3 Password")
+        if password2 == "28461":
+            st.header("Your Question")
+        else:
+            st.write("try again incorrect password")
+
+
+    elif teams_choice == "Team J":
+
+        st.header("Team J")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "40347":
+            st.subheader("Your Topic")
+            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 2")
+        password = st.text_input("Type for round 2 Password")
+        if password == "39404":
+            st.subheader("Your Topic")
+            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 3")
+        password2 = st.text_input("Type for round 3 Password")
+        if password2 == "37398":
+            st.header("Your Question")
+        else:
+            st.write("try again incorrect password")
+
+
+    elif teams_choice == "Team K":
+
+        st.header("Team K")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "30497":
+            st.subheader("Your Topic")
+            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 2")
+        password = st.text_input("Type for round 2 Password")
+        if password == "34877":
+            st.subheader("Your Topic")
+            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 3")
+        password2 = st.text_input("Type for round 3 Password")
+        if password2 == "39462":
+            st.header("Your Question")
+        else:
+            st.write("try again incorrect password")
+
+
+    elif teams_choice == "Team L":
+
+        st.header("Team L")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "39412":
+            st.subheader("Your Topic")
+            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 2")
+        password = st.text_input("Type for round 2 Password")
+        if password == "24971":
+            st.subheader("Your Topic")
+            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 3")
+        password2 = st.text_input("Type for round 3 Password")
+        if password2 == "58709":
+            st.header("Your Question")
+        else:
+            st.write("try again incorrect password")
+
+
+    elif teams_choice == "Team M":
+
+        st.header("Team M")
+        st.subheader("Round 1")
+        teamp = st.text_input("Type for round 1 Password ")
+        if teamp == "40548":
+            st.subheader("Your Topic")
+            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 2")
+        password = st.text_input("Type for round 2 Password")
+        if password == "56083":
+            st.subheader("Your Topic")
+            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+        else:
+            st.write("try again incorrect password")
+
+        st.subheader("Round 3")
+        password2 = st.text_input("Type for round 3 Password")
+        if password2 == "23072":
+            st.header("Your Question")
+        else:
+            st.write("try again incorrect password")
+
+
 
 if __name__ == '__main__':
      main()
-
-
-
-
 
