@@ -196,7 +196,7 @@ def main():
 
     elif teams_choice == "Team G":
 
-        st.header("Team I")
+        st.header("Team G")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "39479":
@@ -223,7 +223,7 @@ def main():
 
     elif teams_choice == "Team H":
 
-        st.header("Team J")
+        st.header("Team H")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "40347":
@@ -250,7 +250,7 @@ def main():
 
     elif teams_choice == "Team I":
 
-        st.header("Team K")
+        st.header("Team I")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "30497":
@@ -277,7 +277,7 @@ def main():
 
     elif teams_choice == "Team J":
 
-        st.header("Team L")
+        st.header("Team J")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "39412":
@@ -304,7 +304,7 @@ def main():
 
     elif teams_choice == "Team K":
 
-        st.header("Team M")
+        st.header("Team K")
         st.subheader("Round 1")
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "40548":
