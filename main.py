@@ -3,7 +3,7 @@ import streamlit as st
 def main():
 
     st.title("ISONOMIA")
-    teams = ["Team A","Team B","Team C","Team D","Team E" ,"Team F","Team I","Team J","Team K","Team L","Team M"]
+    teams = ["Team A","Team B","Team C","Team D","Team E" ,"Team F","Team G","Team H","Team I","Team J","Team K"]
     teams_choice = st.sidebar.selectbox("Teams",teams)
 
     if teams_choice == "Team A":
@@ -194,7 +194,7 @@ def main():
             st.write("try again incorrect password")
 
 
-    elif teams_choice == "Team I":
+    elif teams_choice == "Team G":
 
         st.header("Team I")
         st.subheader("Round 1")
@@ -221,7 +221,7 @@ def main():
             st.write("try again incorrect password")
 
 
-    elif teams_choice == "Team J":
+    elif teams_choice == "Team H":
 
         st.header("Team J")
         st.subheader("Round 1")
@@ -248,7 +248,7 @@ def main():
             st.write("try again incorrect password")
 
 
-    elif teams_choice == "Team K":
+    elif teams_choice == "Team I":
 
         st.header("Team K")
         st.subheader("Round 1")
@@ -275,7 +275,7 @@ def main():
             st.write("try again incorrect password")
 
 
-    elif teams_choice == "Team L":
+    elif teams_choice == "Team J":
 
         st.header("Team L")
         st.subheader("Round 1")
@@ -302,7 +302,7 @@ def main():
             st.write("try again incorrect password")
 
 
-    elif teams_choice == "Team M":
+    elif teams_choice == "Team K":
 
         st.header("Team M")
         st.subheader("Round 1")
