@@ -235,7 +235,8 @@ def main():
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "40347":
             st.subheader("Your Topic")
-            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+            st.write("**MC DONALD**")
+            st.write("McDonald's has come under massive strain after videos of their meat freezers were shown with rotting meat. Inspections and investigations are ongoing but the sales have fallen to an all time low. Regular customers have fled to major competitors and the world looks to you, the PR representative for your response")
         else:
             st.write("try again incorrect password")
 
@@ -262,7 +263,8 @@ def main():
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "30497":
             st.subheader("Your Topic")
-            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+            st.write("**NETFLIX**")
+            st.write("One of the largest digital media streaming platforms is under fire after a Netflix original series was released portraying Hitler as the protagonist and attempting to humanize his crimes. Consumers have started boycotting Netflix and investors are outraged. With the world's gaze upon you, the PR rep of Netflix, what do you have to say?")
         else:
             st.write("try again incorrect password")
 
@@ -289,7 +291,8 @@ def main():
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "39412":
             st.subheader("Your Topic")
-            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+            st.write("**MATTLE**")
+            st.write("One of the largest toy manufacturers has become the most hated company in the world after over 30 cases were revealed of Children dying due to choking on Mattel toys. Mattel has reportedly threatened and silenced the parents to prevent this information from spreading. After its reveal, people have started raising and destroying Offices, warehouses and stores of Mattel. Mattel and its associated products are being boycotted and some are even taking legal measures. As the PR representative of Mattel, the fate of the company is on your shoulders")
         else:
             st.write("try again incorrect password")
 
@@ -339,4 +342,3 @@ def main():
 
 if __name__ == '__main__':
      main()
-
