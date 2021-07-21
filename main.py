@@ -188,7 +188,7 @@ def main():
         password = st.text_input("Type for round 2 Password")
         if password == "29923":
             st.subheader("Your Topic")
-            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+            st.write("**Shinzo Abe applying for a job at Toyota.**")
         else:
             st.write("try again incorrect password")
 
@@ -216,7 +216,7 @@ def main():
         password = st.text_input("Type for round 2 Password")
         if password == "28123":
             st.subheader("Your Topic")
-            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+            st.write("**Xi Jinping applying for a job at Xiaomi.**")
         else:
             st.write("try again incorrect password")
 
@@ -244,7 +244,7 @@ def main():
         password = st.text_input("Type for round 2 Password")
         if password == "39404":
             st.subheader("Your Topic")
-            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+            st.write("**Donald Trump applying for a job at Walmart.**")
         else:
             st.write("try again incorrect password")
 
@@ -272,7 +272,7 @@ def main():
         password = st.text_input("Type for round 2 Password")
         if password == "34877":
             st.subheader("Your Topic")
-            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+            st.write("**Emmanuel Macron applying for a job at Facebook.**")
         else:
             st.write("try again incorrect password")
 
@@ -300,7 +300,7 @@ def main():
         password = st.text_input("Type for round 2 Password")
         if password == "24971":
             st.subheader("Your Topic")
-            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+            st.write("**Justin trodeau applying for a job at Netflix.**")
         else:
             st.write("try again incorrect password")
 
@@ -319,7 +319,8 @@ def main():
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "40548":
             st.subheader("Your Topic")
-            st.write("In the current situation of a global pandemic, Pfizer, one of the top vaccine makers has raked in billions of dollars through sales of their serum.  However, Pfizer CEO Albert Bourla was recorded saying the vaccine will kill people faster than the disease.The authenticity of the tape is being investigated and so is the safety of the vaccine. The people are still unconvinced and the product is being boycotted globally. Hunderds of Millions worldwide are demanding refunds and compensation. As the spokesperson of Pfizer, it is your job to reassure the world of the safety of your vaccine. Good Luck.")
+            st.write("**RELIANCE**")
+            st.write("Reliance CEO Mukesh Ambani was arrested for funding terror activities. Mukesh Ambani has been revealed to secretly by a radical extremists and has been found funding multiple criminal organizations such as the Al-Qaeda, ISIS, the Jaish-e-Mohammed. With his arrest becoming public knowledge, the public is outraged and Reliance and other companies associated with him have become the target of Public anger. As, the PR spokesperson of Reliance, it is your job to save the company from doom.")
         else:
             st.write("try again incorrect password")
 
@@ -327,7 +328,7 @@ def main():
         password = st.text_input("Type for round 2 Password")
         if password == "56083":
             st.subheader("Your Topic")
-            st.write("**For this round you will be Jacinda Ardern applying for a job at Apple.**")
+            st.write("**Arnold Schwarzenegger applying for a job at Nike.**")
         else:
             st.write("try again incorrect password")
 
