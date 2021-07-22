@@ -291,7 +291,7 @@ def main():
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "39412":
             st.subheader("Your Topic")
-            st.write("**MATTLE**")
+            st.write("**MATTEL**")
             st.write("One of the largest toy manufacturers has become the most hated company in the world after over 30 cases were revealed of Children dying due to choking on Mattel toys. Mattel has reportedly threatened and silenced the parents to prevent this information from spreading. After its reveal, people have started raising and destroying Offices, warehouses and stores of Mattel. Mattel and its associated products are being boycotted and some are even taking legal measures. As the PR representative of Mattel, the fate of the company is on your shoulders")
         else:
             st.write("try again incorrect password")
