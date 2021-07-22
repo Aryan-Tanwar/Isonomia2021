@@ -89,7 +89,7 @@ def main():
         password = st.text_input("Type for round 2 Password")
         if password == "95858":
             st.subheader("Your Topic")
-            st.write("**For this round you will be Narendra Modi applying for a job at Paytm**")
+            st.write("**Kamala Harris applying for a job at oracle**")
         else:
             st.write("try again incorrect password")
 
