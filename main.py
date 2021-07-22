@@ -319,8 +319,8 @@ def main():
         teamp = st.text_input("Type for round 1 Password ")
         if teamp == "40548":
             st.subheader("Your Topic")
-            st.write("**RELIANCE**")
-            st.write("Reliance CEO Mukesh Ambani was arrested for funding terror activities. Mukesh Ambani has been revealed to secretly by a radical extremists and has been found funding multiple criminal organizations such as the Al-Qaeda, ISIS, the Jaish-e-Mohammed. With his arrest becoming public knowledge, the public is outraged and Reliance and other companies associated with him have become the target of Public anger. As, the PR spokesperson of Reliance, it is your job to save the company from doom.")
+            st.write("**CHANEL**")
+            st.write("Chanel, one of the largest perfume makers has been thrown into a PR disaster after cases of the products causing cancer have come to light. Many suspect that the officials of Health and Safety Boards across the planet may have been bribed to allow the products to be approved. Class Action law suits have been filed against Chanel and consumers all across the world are boycotting the company. As, the PR representative of Chanel, the world looks to you for your statement.")
         else:
             st.write("try again incorrect password")
 
