@@ -97,11 +97,11 @@ def main():
         password2 = st.text_input("Type for round 3 Password")
         if password2 == "37737":
            st.header("Your Question")
-            st.write("**Andrew**")
-            st.write("You just saw the dead body of your best friend Frank. You are in a state of shock and will do anything to find out who did this and get justice for Frank.")
-            st.write("**Where were you at the time of the murder?** Near Kitchen- Making coffee-About to pull an all nighter- Found the body in the workspace- On the way to the break room- Dropped coffee mug from shock- Called ambulance")
-            st.write("**How did you know Frank?** Best friend- We met after he started working here. He was funny, kind, polite, and smart. He helped me when we started working here. He was there for me when my parents died. We used to go to an orphanage every week to do social work. He was rich so it could have been about money. He was going to get engaged soon so it could have been done by a love rival. Or it might be because he was going to get a promotion.")
-            st.write("**Who do you think the murderer is and why?** Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
+           st.write("**Andrew**")
+           st.write("You just saw the dead body of your best friend Frank. You are in a state of shock and will do anything to find out who did this and get justice for Frank.")
+           st.write("**Where were you at the time of the murder?** Near Kitchen- Making coffee-About to pull an all nighter- Found the body in the workspace- On the way to the break room- Dropped coffee mug from shock- Called ambulance")
+           st.write("**How did you know Frank?** Best friend- We met after he started working here. He was funny, kind, polite, and smart. He helped me when we started working here. He was there for me when my parents died. We used to go to an orphanage every week to do social work. He was rich so it could have been about money. He was going to get engaged soon so it could have been done by a love rival. Or it might be because he was going to get a promotion.")
+           st.write("**Who do you think the murderer is and why?** Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
         else:
             st.write("try again incorrect password")
 
