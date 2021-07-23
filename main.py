@@ -96,11 +96,11 @@ def main():
         st.subheader("Round 3")
         password2 = st.text_input("Type for round 3 Password")
         if password2 == "37737":
-            st.header("Your Question")
-            st.write("**Brian**")
-            st.write("You are a heroic character and care about justice. You weren't very close with Frank but care about right and wrong. You will do whatever it takes to get to the bottom of this mystery. ")
-            st.write("**Where were you at the time of the murder and what were you doing?** Meeting room- About to have a meeting with Charles-Job interview- Finished work in Workspace- Went to kitchen to get a snack- Went to meeting room to wait- Heard Andrew scream and came to the lobby- Saw the body of Frank in workspace- Second person to get there- Called police")
-            st.write("**What do you know about Frank?** Colleague- Polite. Hard worker. Efficient. Well mannered. We met here and weren't particularly close. Everyone who met him liked him. He was going to get a promotion and there was going to be a surprise party.")
+           st.header("Your Question")
+            st.write("**Andrew**")
+            st.write("You just saw the dead body of your best friend Frank. You are in a state of shock and will do anything to find out who did this and get justice for Frank.")
+            st.write("**Where were you at the time of the murder?** Near Kitchen- Making coffee-About to pull an all nighter- Found the body in the workspace- On the way to the break room- Dropped coffee mug from shock- Called ambulance")
+            st.write("**How did you know Frank?** Best friend- We met after he started working here. He was funny, kind, polite, and smart. He helped me when we started working here. He was there for me when my parents died. We used to go to an orphanage every week to do social work. He was rich so it could have been about money. He was going to get engaged soon so it could have been done by a love rival. Or it might be because he was going to get a promotion.")
             st.write("**Who do you think the murderer is and why?** Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
         else:
             st.write("try again incorrect password")
@@ -129,12 +129,13 @@ def main():
         st.subheader("Round 3")
         password2 = st.text_input("Type for round 3 Password")
         if password2 == "76464":
-            st.header("Your Question")
-            st.write("**Charles**")
-            st.write("You are the murderer. Try to be calm and convince them that it's not you. You were Frank's college bully and now he had a high level job in a big company. You were unable to find a job anywhere else and you had a family to feed. You were worried he was going to tank your interview so you went to the lab and stole a scalpel and some bleach when David wasn't looking. You stabbed Frank, went to the lobby and cleaned the scalpel with bleach and hid the scalpel under the sofa. You saw Eric and decided to pin the blame on him and then went to the kitchen after seeing the blood on your tie that no one noticed. You washed it off and went to the break room for it to dry")
-            st.write("**Where were you at the time of the murder?** Lobby- About to have a meeting with Brian- Just entered. Went to lab- Met David- Went back to lobby- Saw Eric about to leave from the direction of the murder-Seemed to be in a suspicious hurry- Heard Andrew scream and we both came- stepped on broken mug- Shards were very sharp- Went to Lean Back room to take a breath when the police arrived")
-            st.write("**What do you know about Frank?** He was my friend back in college. We hadn't met each other in a long time. When he found out that I'm going to work here he said he would put in a good word for me with Brian. He helped me move to the city and said we should have lunch and catch up sometime.")
-            st.write("**Who do you think the murderer is and why?** Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
+           st.header("Your Question")
+            st.write("**Eric**")
+            st.write("You have a family at home waiting for you.You finished work and wanted to leave. You are polite and trusting. You hope that the murderer is found so that you can return to your family. You don't suspect anyone.")
+            st.write("**Where were you at the time of the meeting?** I had just finished work in the workspace- Went to break room to smoke- Went to kitchen to make lemonade to disguise the smell of the smoke from wife- Met Andrew- He was making coffee- Went to leave and heard a scream- Saw Charles in the lobby- Went with him to see what happened- Stayed in workspace until cops arrived")
+            st.write("**What do you know about him?** He was a classic good guy. Made a good impression on everyone he met. Very friendly. My children called him uncle B. He was always so good with them. He was going to come over for Dinner next week. They'll be devastated to hear about this. I would never kill him.")
+            st.write("**Who do you think the murderer is and why?**Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
+
         else:
             st.write("try again incorrect password")
 
@@ -162,11 +163,11 @@ def main():
         st.subheader("Round 3")
         password2 = st.text_input("Type for round 3 Password")
         if password2 == "38469":
-            st.header("Your Question")
-            st.write("**Andrew**")
-            st.write("You just saw the dead body of your best friend Frank. You are in a state of shock and will do anything to find out who did this and get justice for Frank.")
-            st.write("**Where were you at the time of the murder?** Near Kitchen- Making coffee-About to pull an all nighter- Found the body in the workspace- On the way to the break room- Dropped coffee mug from shock- Called ambulance")
-            st.write("**How did you know Frank?** Best friend- We met after he started working here. He was funny, kind, polite, and smart. He helped me when we started working here. He was there for me when my parents died. We used to go to an orphanage every week to do social work. He was rich so it could have been about money. He was going to get engaged soon so it could have been done by a love rival. Or it might be because he was going to get a promotion.")
+             st.header("Your Question")
+            st.write("**Brian**")
+            st.write("You are a heroic character and care about justice. You weren't very close with Frank but care about right and wrong. You will do whatever it takes to get to the bottom of this mystery. ")
+            st.write("**Where were you at the time of the murder and what were you doing?** Meeting room- About to have a meeting with Charles-Job interview- Finished work in Workspace- Went to kitchen to get a snack- Went to meeting room to wait- Heard Andrew scream and came to the lobby- Saw the body of Frank in workspace- Second person to get there- Called police")
+            st.write("**What do you know about Frank?** Colleague- Polite. Hard worker. Efficient. Well mannered. We met here and weren't particularly close. Everyone who met him liked him. He was going to get a promotion and there was going to be a surprise party.")
             st.write("**Who do you think the murderer is and why?** Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
         else:
             st.write("try again incorrect password")
@@ -252,6 +253,12 @@ def main():
         password2 = st.text_input("Type for round 3 Password")
         if password2 == "37398":
             st.header("Your Question")
+            st.write("**Charles**")
+            st.write("You are the murderer. Try to be calm and convince them that it's not you. You were Frank's college bully and now he had a high level job in a big company. You were unable to find a job anywhere else and you had a family to feed. You were worried he was going to tank your interview so you went to the lab and stole a scalpel and some bleach when David wasn't looking. You stabbed Frank, went to the lobby and cleaned the scalpel with bleach and hid the scalpel under the sofa. You saw Eric and decided to pin the blame on him and then went to the kitchen after seeing the blood on your tie that no one noticed. You washed it off and went to the break room for it to dry")
+            st.write("**Where were you at the time of the murder?** Lobby- About to have a meeting with Brian- Just entered. Went to lab- Met David- Went back to lobby- Saw Eric about to leave from the direction of the murder-Seemed to be in a suspicious hurry- Heard Andrew scream and we both came- stepped on broken mug- Shards were very sharp- Went to Lean Back room to take a breath when the police arrived")
+            st.write("**What do you know about Frank?** He was my friend back in college. We hadn't met each other in a long time. When he found out that I'm going to work here he said he would put in a good word for me with Brian. He helped me move to the city and said we should have lunch and catch up sometime.")
+            st.write("**Who do you think the murderer is and why?** Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
+
         else:
             st.write("try again incorrect password")
 
@@ -308,6 +315,12 @@ def main():
         password2 = st.text_input("Type for round 3 Password")
         if password2 == "58709":
             st.header("Your Question")
+            st.write("**David**")
+            st.write("You are a crazy scientist who has no interest in mundane matters such as murder.You are honest and direct. You want to clear yourself of suspicions you want to return to continue your research and study the results of your painstaking experiment.You met Charles who seems like a capable student and showed him the lab and what work you were doing. You heard Andrew scream but didn't go because your work is far more important than solving the crime")
+            st.write("**Where were you at the time of the murder?** Lab- Working- Experiment with acids and highly lethal chemicals- Charles came to the lab to take a quick look and see what he would be working with in the future- Tissue therapy- Lab Animals- I had Scalpels, Bleach, glass- It could be me but I wouldn't waste my time with murder- Heard Andrew scream- Didn't go- Important and dangerous experiment would have to be redone.")
+            st.write("**What do you know about Frank?** Hard worker but not as much as me. Smart, but again not as much as me. Didn't particularly know him. We were working together and now he was going to get promoted and didn't even bother to inform me. How discourteous? He even told Brian to schedule an interview for his replacement without consulting with me first.")
+            st.write("**Who do you think the murderer is and why?** Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
+
         else:
             st.write("try again incorrect password")
 
