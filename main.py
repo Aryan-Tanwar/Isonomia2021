@@ -130,11 +130,11 @@ def main():
         password2 = st.text_input("Type for round 3 Password")
         if password2 == "76464":
            st.header("Your Question")
-            st.write("**Eric**")
-            st.write("You have a family at home waiting for you.You finished work and wanted to leave. You are polite and trusting. You hope that the murderer is found so that you can return to your family. You don't suspect anyone.")
-            st.write("**Where were you at the time of the meeting?** I had just finished work in the workspace- Went to break room to smoke- Went to kitchen to make lemonade to disguise the smell of the smoke from wife- Met Andrew- He was making coffee- Went to leave and heard a scream- Saw Charles in the lobby- Went with him to see what happened- Stayed in workspace until cops arrived")
-            st.write("**What do you know about him?** He was a classic good guy. Made a good impression on everyone he met. Very friendly. My children called him uncle B. He was always so good with them. He was going to come over for Dinner next week. They'll be devastated to hear about this. I would never kill him.")
-            st.write("**Who do you think the murderer is and why?**Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
+           st.write("**Eric**")
+           st.write("You have a family at home waiting for you.You finished work and wanted to leave. You are polite and trusting. You hope that the murderer is found so that you can return to your family. You don't suspect anyone.")
+           st.write("**Where were you at the time of the meeting?** I had just finished work in the workspace- Went to break room to smoke- Went to kitchen to make lemonade to disguise the smell of the smoke from wife- Met Andrew- He was making coffee- Went to leave and heard a scream- Saw Charles in the lobby- Went with him to see what happened- Stayed in workspace until cops arrived")
+           st.write("**What do you know about him?** He was a classic good guy. Made a good impression on everyone he met. Very friendly. My children called him uncle B. He was always so good with them. He was going to come over for Dinner next week. They'll be devastated to hear about this. I would never kill him.")
+           st.write("**Who do you think the murderer is and why?**Give the answer you think is right after the Evidence and Questioning along with a short explanation and justification and also add in why it's not you.")
 
         else:
             st.write("try again incorrect password")
@@ -163,7 +163,7 @@ def main():
         st.subheader("Round 3")
         password2 = st.text_input("Type for round 3 Password")
         if password2 == "38469":
-             st.header("Your Question")
+            st.header("Your Question")
             st.write("**Brian**")
             st.write("You are a heroic character and care about justice. You weren't very close with Frank but care about right and wrong. You will do whatever it takes to get to the bottom of this mystery. ")
             st.write("**Where were you at the time of the murder and what were you doing?** Meeting room- About to have a meeting with Charles-Job interview- Finished work in Workspace- Went to kitchen to get a snack- Went to meeting room to wait- Heard Andrew scream and came to the lobby- Saw the body of Frank in workspace- Second person to get there- Called police")
